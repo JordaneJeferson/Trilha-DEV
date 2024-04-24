@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Pagina</title>
+    <link rel="stylesheet" type="text/css" href="TrilhaDev2.css">
+ </head>
+<body>
+    <div id="box1">Box1</div>
+    <div id="box2">Box2</div>
+    <div id="box3">Box3</div>
+    <article>
+    <header><h3 class="estesiteé">Este site é para teste</h3></header>
+    </article>
+    <h1 class="OlaM"><i>Olá, Mundo!</i></h1><br>
+    <footer><p class="MeuBlue">Rodapé</p></footer><br>
+    <aside><p class="MeuBlue">Teste da pagina</p></aside><br>
+    <nav><p class="MeuBlue">Outro teste da pagina</p></nav><br>
+    <form>
+        <div class="divNegrito"><label for="campo">
+            Label
+        </label>
+        <input id="campo" type="text" placeholder="texto de ajuda" autofocus required>
+    </form><br>
+    <form>
+        <label for="celular">Celular</label>
+        <input id="celular" type="tel" placeholder="(99)9999-9999" onkeypress="return isNumberKey(event)" maxlength="10">
+    </form>
+    
+    <script>
+    function isNumberKey(evt){
+        var charCode = (evt.which) ? evt.which : evt.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+        return true;
+    }
+    </script>
+    <br>
+    <form>
+        <label for="n">Nota:</label>
+        <input name="n" type="number" value="6.0" step="0.5" min="0" max="10">
+    </form><br>
+    <form> ​
+        <label for="date">
+            Date:
+        </label>
+        <input id="date" type="date">
+        <br>
+        <label for="week"><br>
+            Week:
+        </label>
+        <input id="week" type="week">
+        <br>
+        <label for="month"><br>
+            Month:
+        </label>
+        <input id="month" type="month">
+        <br>
+        <label for="datetime-local"><br>
+            Datetime-local:
+        </label>
+        <input id="datetime-local" type="datetime-local">
+        <br>
+        <label for="time"><br>
+            Time:
+        </label>
+        <input id="time" type="time">
+    </form><br><br>
+        <form>
+            <label for="fruta">Escolha uma fruta: </label>
+            <input id="frutaInput" list="frutas">
+            <datalist id="frutas">
+                <option value="Abacate">
+                <option value="Abacaxi">
+                <option value="Banana">
+                <option value="Carambola">
+            </datalist>   
+        </form><br><br>
+        <audio controls autoplay loop>
+            <source src="Low Mileage - I'm Not Ready _ Garage _ NCS - Copyright Free Music.mp3" type="audio/ogg">
+        </audio>
+    </div><br>
+        
+    <div class="box0">
+               Caixa sem espaçamento
+    </div>
+    <div class="box0-padding">
+               Caixa com espaçamento
+    </div><br> 
+    <div class="imgrodapé">
+        
+            <img src="cripto-site.jpg" alt="cripto"><br>
+            <h2 class="meuEstilo"><a href="https://br.cointelegraph.com/tags/cryptocurrencies" target="blank">Principais Noticias Sobre CriptoMoeda</a></h2><br> 
+            <figcaption>Cripto moeda em alta</figcaption>
+
+        
+    </div>
+</body>
+</html>

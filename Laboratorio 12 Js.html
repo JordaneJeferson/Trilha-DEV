@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mostrar nome da pessoa mais velha</title>
+</head>
+<body>
+<script>
+  var pessoa = [];
+var idade = [];
+var indice = 0;
+var maiorIdade = 0;
+for (var i = 0; i < 5; i++) {
+        var nome = String(prompt('Digite o nome'));
+        pessoa.push(nome);
+        var id = parseInt(prompt('Digite a idade'));
+        idade.push(id);
+        alert(pessoa)
+        alert(idade)
+}
+var maior = 0
+var indice = 0
+for (var k = 1; k < idade.length; k++) {
+        if (idade[k] > idade[maior]) {
+                indice = k;
+                maior = k;
+
+          
+        }
+}
+alert("A pessoa de maior idade é " + pessoa[indice]);       
+</script>  
+</body>
+</html>

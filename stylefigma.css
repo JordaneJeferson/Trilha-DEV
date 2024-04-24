@@ -1,0 +1,235 @@
+.direita {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: grid;
+    align-items: stretch;
+    background: rgba(229, 229, 229, 0.41);
+    width: 1000px;
+    height: 1200px;
+    float: right;
+    margin-top: -65%;
+    flex-shrink: 0;
+    
+    
+  }
+  
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    white-space: pre-wrap;
+    
+    
+    
+  }
+  img {
+    clear: all;
+    margin-right: -970px;
+    display: flex;
+    position: relative;
+    top: -550px;
+    white-space: pre-wrap;
+  }
+   
+
+  
+  .textoazul {
+    color: #3751FE;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  
+  .textoazulsub {
+    color: #3751FE;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  
+  .textonovapagina {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 45px;
+    
+  }
+  
+
+  .textosimples {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .Email{
+    width: 554px;
+    height: 74px;
+
+  }
+  .login-container {
+    color: #0C31F1;
+    border: 1px solid #C1BBBB;
+    background: #FFF;
+    width: 700px;
+    height: 74px;
+    top: 700px;
+    left: 392px;
+    margin-top: -50px;
+  }
+  
+
+  .textemail {
+    margin-top: -15px;
+    display: flex;
+    margin-left: 10px;
+  }
+  
+
+  input::placeholder {
+    padding-left: 5%;
+    margin-top: 300px;
+  }
+
+  .checkbox {
+    float: all;
+    margin-top: -30px;
+  }
+  
+
+  .Esqueceuasenha {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 351px;
+    width: 160px;
+    margin-top: -22px;
+    color: rgba(0, 0, 0, 0.61);
+  }
+  
+
+  .lembrar-me {
+    color: rgba(0, 0, 0, 0.61);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 52px;
+    display: flex;
+    margin-left: 20px;
+    width: 100px;
+  }
+  
+
+  .login {
+    color: #FFF;
+    background: #3751FE;
+    box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25); 
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: #3751FE;
+    width: 129px;
+    height: 54px;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+
+  .inscricao {
+    color: #0C31F1;
+    border: 1px solid #3751FE;
+    background: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 129px;
+    height: 54px;
+  }
+  .facalogin{
+    color: rgba(0, 0, 0, 0.61);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 80px;
+    display: flex;
+    margin-left: 8px;
+    width: -100px;
+    
+  }
+  .metades{
+    display: flex;
+    margin-left: 150px;
+
+  }
+  .esquerda{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    margin-left: -50px;
+    margin-right: 50px; 
+    
+  }
+  .Facebook{
+    color: #3751FE;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    margin-top: -22px;
+    float: right;
+    width: 80%;
+  }
+
+  .Linkedin{
+    color: #3751FE;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    margin-top: -22px;
+    float: right;
+    width: 63%;
+  }
+
+    .Google{
+      color: #3751FE;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    margin-top: -22px;
+    float: right;
+    width: 46%;
+    }

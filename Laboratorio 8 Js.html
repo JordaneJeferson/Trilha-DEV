@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de alunos</title>
+</head>
+<body>
+    <script>
+        var peso = parseInt(prompt("Informe o peso"));
+        var altura = parseInt(prompt("Informe a altura"));
+        var imc = peso / (altura * altura);
+        if (imc < 20) {
+                alert("ABAIXO DO PESO!");
+        }
+        else if (imc <=30 & imc>= 20) {
+                alert("PESO NORMAL!");
+        }
+        else {
+                alert("ACIMA DO PESO!");
+        }
+    </script>  
+</body>
+</html>

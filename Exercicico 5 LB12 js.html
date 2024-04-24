@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Contador de Números Positivos</h2>
+
+<button onclick="contarNumeros()">Iniciar</button>
+
+<p id="resultado"></p>
+
+<script>
+function contarNumeros() {
+  let contador = 0;
+  let numero = 0;
+
+  while(numero >= 0) {
+    numero = prompt("Digite um número:");
+    if(numero >= 0) {
+      contador++;
+    }
+  }
+
+  document.getElementById("resultado").innerHTML = "Você digitou " + contador + " números positivos.";
+}
+</script>
+
+</body>
+</html>

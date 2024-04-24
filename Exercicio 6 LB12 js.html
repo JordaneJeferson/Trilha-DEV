@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Escolha uma Opção</h2>
+
+<button onclick="(() => {
+  let opcao = prompt('Digite a opção desejada:\n1. Ler 5 números e imprimir a soma deles\n2. Ler 3 números e imprimir o produto deles\n3. Sair do programa');
+  let resultado = document.getElementById('resultado');
+  opcao == '1' ? resultado.innerHTML = 'A soma dos números é: ' + Array(5).fill().map((_, i) => parseFloat(prompt(`Digite o número ${i+1}:`))).reduce((a, b) => a + b) :
+  opcao == '2' ? resultado.innerHTML = 'O produto dos números é: ' + Array(3).fill().map((_, i) => parseFloat(prompt(`Digite o número ${i+1}:`))).reduce((a, b) => a * b) :
+  opcao == '3' ? resultado.innerHTML = 'Você escolheu sair do programa.' :
+  resultado.innerHTML = 'Opção inválida.';
+})()">Iniciar</button>
+
+<p id="resultado"></p>
+
+</body>
+</html>

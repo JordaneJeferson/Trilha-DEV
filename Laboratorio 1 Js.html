@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Área do Triângulo</title>
+</head>
+<body>
+
+    <h1>Calculadora de Área de Triângulo</h1>
+
+    <script>
+        // Função para calcular a área do triângulo
+        function calcularAreaTriangulo(base, altura) {
+            return (base * altura) / 2;
+        }
+
+        // Solicita ao usuário que insira o valor da base
+        var baseTriangulo = parseFloat(prompt("Digite o valor da base do triângulo:"));
+
+        // Solicita ao usuário que insira o valor da altura
+        var alturaTriangulo = parseFloat(prompt("Digite o valor da altura do triângulo:"));
+
+        // Verifica se os valores inseridos são válidos
+        if (isNaN(baseTriangulo) || isNaN(alturaTriangulo)) {
+            alert("Por favor, insira valores numéricos válidos.");
+        } else {
+            // Chama a função e armazena o resultado
+            var areaTriangulo = calcularAreaTriangulo(baseTriangulo, alturaTriangulo);
+
+            // Imprime o resultado no console e na página
+            console.log("Área do triângulo: " + areaTriangulo);
+
+            // Exibe na página HTML
+            document.write("<p>A área do triângulo é: " + areaTriangulo + "</p>");
+        }
+    </script>
+
+</body>
+</html>

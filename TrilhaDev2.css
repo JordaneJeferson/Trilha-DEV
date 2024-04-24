@@ -1,0 +1,73 @@
+body {
+  background-color: #313434; /* Cor de fundo cinza claro */
+}
+
+.estesiteé {
+  margin-right: 100px;
+  float: right;
+}
+
+.OlaM {
+  color: orange;
+}
+
+.MeuBlue {
+  color: #5555b6; 
+}
+
+.divNegrito {
+  font-weight: bold;
+}
+
+a:link {
+  color: goldenrod;
+}
+
+.box0,
+.box0-padding {
+  width: 250px;
+  border-style: solid;
+}
+
+.box0 {
+  background-color: green;
+  border-color: azure;
+  border-width: 2px;
+}
+
+.box0-padding {
+  background-color: aquamarine;
+  padding-left: 30px;
+  border-color: aliceblue;
+}
+
+
+
+#box1 {
+  border-color: blue;
+  border-width: 2px;
+  border-style: dashed; 
+}
+
+#box2 {
+  border-color: red;
+  border-width: thick;
+  border-style: dotted; 
+}
+
+#box3 {
+  border-color: green;
+  border-width: 1px 4px 12px 4px;
+  border-style: solid; 
+}
+
+.meuEstilo {
+  color: blue;
+}
+
+.imgrodapé img {
+  margin-top: -800px;
+  width: 800px; 
+  height: 500px;
+  float: right;
+}

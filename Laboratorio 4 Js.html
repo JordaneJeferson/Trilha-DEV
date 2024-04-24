@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de alunos</title>
+</head>
+<body>
+    <script>
+        var tempo = parseInt(prompt("Digite o tempo"));
+        var velocidade = parseInt(prompt("Digite a velocidade"));
+        var consumo = parseInt(prompt("Digite o consumo"));
+        var valor = parseInt(prompt("Digite o valor"));
+        var distancia = parseFloat(tempo * velocidade);
+        var qtdCombustivel = parseFloat(distancia / consumo);
+        var valorTotal = parseFloat(qtdCombustivel * valor);
+                alert("A distancia = " + distancia + "\n" + "Qtd. Combustivel = " + qtdCombustivel + "\n" + "O Valor total foi de = " + valorTotal);
+</script>
+</body>
+</html>

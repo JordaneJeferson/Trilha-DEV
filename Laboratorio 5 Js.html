@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de alunos</title>
+</head>
+<body>
+    <script>
+        var capital = parseInt(prompt("Informe o capital"));
+        var tXjuros = parseInt(prompt("Informe a taxa de juros"));
+        var meses = parseInt(prompt("Informe a quantidade de meses"));
+        var juros = parseFloat(capital * (tXjuros / 100) * meses);
+        var capitalTotal = capital + juros;
+                alert("Saldo em " + meses + " meses é de " + capitalTotal);
+</script>  
+</body>
+</html>
